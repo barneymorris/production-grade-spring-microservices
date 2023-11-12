@@ -8,6 +8,6 @@ public class TwitterToKafkaServiceApplicationTests {
 
     @Test
     public void contextLoad() {
-        
+
     }
 }
