@@ -13,10 +13,14 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>microservices</name>
     <description>microservices</description>
+    <modules>
+        <module>twitter-to-kafka-service</module>
+    </modules>
     <properties>
         <java.version>11</java.version>
         <spring-boot.version>2.7.17</spring-boot.version>
         <maven-compliler-plugin.version>3.8.0</maven-compliler-plugin.version>
+        <twitter4j.version>4.0.7</twitter4j.version>
     </properties>
     <packaging>pom</packaging>
 
@@ -33,6 +37,12 @@
                 <artifactId>spring-boot-starter-test</artifactId>
                 <version>${spring-boot.version}</version>
                 <scope>test</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.twitter4j</groupId>
+                <artifactId>twitter4j-stream</artifactId>
+                <version>${twitter4j.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
