@@ -69,3 +69,10 @@ Caused by: java.lang.NullPointerException: Cannot invoke "java.util.List.toArray
 2023-11-12 21:15:33 [pool-1-thread-1] INFO  c.m.l.TwitterToKafkaStatusListener - Twitter status with text ultricies dolor Maecenas malesuada sit magna lectus porttitor Spring dolor massa purus pulvinar massa consectetuter
 2023-11-12 21:15:43 [pool-1-thread-1] INFO  c.m.l.TwitterToKafkaStatusListener - Twitter status with text porttitor libero consectetuter ultricies Lorem Spring dolor lectus Ipsum Ipsum
 2023-11-12 21:15:53 [pool-1-thread-1] INFO  c.m.l.TwitterToKafkaStatusListener - Twitter status with text elit ultricies malesuada malesuada Kafka consectetuter Lorem
+2023-11-12 23:25:11 [main] INFO  c.m.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.2 on Boriss-MacBook-Pro.local with PID 61775 (/Users/barney/projects/microservices/twitter-to-kafka-service/target/classes started by barney in /Users/barney/projects/microservices)
+2023-11-12 23:25:11 [main] INFO  c.m.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-12 23:25:12 [main] INFO  c.m.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.228 seconds (JVM running for 2.132)
+2023-11-12 23:25:12 [main] INFO  c.m.TwitterToKafkaServiceApplication - App starts...
+2023-11-12 23:25:12 [main] INFO  c.m.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-11-12 23:25:12 [main] INFO  c.m.r.impl.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-11-12 23:25:12 [pool-1-thread-1] INFO  c.m.l.TwitterToKafkaStatusListener - Twitter status with text Lorem sit sed Lorem Java adipiscing porttitor
