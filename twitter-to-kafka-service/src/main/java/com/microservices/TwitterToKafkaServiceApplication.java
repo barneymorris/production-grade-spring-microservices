@@ -1,13 +1,11 @@
-package com.microservices.microservices;
+package com.microservices;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MicroservicesApplication {
-
+public class TwitterToKafkaServiceApplication {
     public static void main(String[] args) {
-        SpringApplication.run(MicroservicesApplication.class, args);
+        SpringApplication.run(TwitterToKafkaServiceApplication.class, args);
     }
-
 }

@@ -1,13 +1,13 @@
-package com.microservices.microservices;
+package com.microservices;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MicroservicesApplicationTests {
+public class TwitterToKafkaServiceApplicationTests {
 
     @Test
-    void contextLoads() {
+    public void contextLoad() {
+        
     }
-
 }
