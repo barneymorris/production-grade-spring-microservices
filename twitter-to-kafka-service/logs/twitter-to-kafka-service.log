@@ -59,3 +59,13 @@ Caused by: java.lang.NullPointerException: Cannot invoke "java.util.List.toArray
 2023-11-12 19:48:53 [main] INFO  c.m.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.282 seconds (JVM running for 2.17)
 2023-11-12 19:48:53 [main] INFO  c.m.TwitterToKafkaServiceApplication - App starts...
 2023-11-12 19:48:53 [main] INFO  c.m.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-11-12 21:15:22 [main] INFO  c.m.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.2 on Boriss-MacBook-Pro.local with PID 59659 (/Users/barney/projects/microservices/twitter-to-kafka-service/target/classes started by barney in /Users/barney/projects/microservices)
+2023-11-12 21:15:22 [main] INFO  c.m.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-12 21:15:23 [main] INFO  c.m.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.279 seconds (JVM running for 2.199)
+2023-11-12 21:15:23 [main] INFO  c.m.TwitterToKafkaServiceApplication - App starts...
+2023-11-12 21:15:23 [main] INFO  c.m.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-11-12 21:15:23 [main] INFO  c.m.r.impl.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-11-12 21:15:23 [pool-1-thread-1] INFO  c.m.l.TwitterToKafkaStatusListener - Twitter status with text sed magna porttitor consectetuter Ipsum Maecenas porttitor Spring sit posuere Lorem posuere dolor magna
+2023-11-12 21:15:33 [pool-1-thread-1] INFO  c.m.l.TwitterToKafkaStatusListener - Twitter status with text ultricies dolor Maecenas malesuada sit magna lectus porttitor Spring dolor massa purus pulvinar massa consectetuter
+2023-11-12 21:15:43 [pool-1-thread-1] INFO  c.m.l.TwitterToKafkaStatusListener - Twitter status with text porttitor libero consectetuter ultricies Lorem Spring dolor lectus Ipsum Ipsum
+2023-11-12 21:15:53 [pool-1-thread-1] INFO  c.m.l.TwitterToKafkaStatusListener - Twitter status with text elit ultricies malesuada malesuada Kafka consectetuter Lorem
